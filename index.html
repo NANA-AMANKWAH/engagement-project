@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Francis & Ruth's Engagement</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Great+Vibes&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <img src="couple.JPG" alt="Francis and Ruth" class="couple-photo">
+    <h1>Francis ❤ Ruth</h1>
+    <p class="subtitle">You are warmly invited to our engagement ceremony</p>
+
+    <div class="countdown" id="countdown">
+      <div><span id="days">00</span><small>Days</small></div>
+      <div><span id="hours">00</span><small>Hours</small></div>
+      <div><span id="minutes">00</span><small>Minutes</small></div>
+      <div><span id="seconds">00</span><small>Seconds</small></div>
+    </div>
+
+    <blockquote>"Therefore what God has joined together, let no one separate." — Mark 10:9</blockquote>
+
+    <section class="join-meet">
+      <button onclick="showPreview()" class="meet-link">Join Google Meet</button>
+    </section>
+
+    <div class="preview-container" id="preview-overlay" style="display: none;">
+      <div class="preview-slideshow">
+        <img src="love1.jpg" class="preview-img" alt="Photo 1">
+        <img src="love2.jpg" class="preview-img" alt="Photo 2">
+        <img src="love3.jpg" class="preview-img" alt="Photo 3">
+      </div>
+      <p>Opening Google Meet Shortly</p>
+      <button onclick="continueToMeet()" class="continue-btn">Continue to Meet</button>
+    </div>
+
+    <footer>
+      <p>Happening Live in Ghana & UK</p>
+    </footer>
+  </div>
+</body>
+</html>
